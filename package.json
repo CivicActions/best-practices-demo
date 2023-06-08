@@ -1,0 +1,18 @@
+{
+  "name": "ca-jekyll-vanilla",
+  "author": "CivicActions",
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International Public License",
+  "scripts": {
+    "postinstall": "bundle",
+    "start": "bundle exec jekyll serve",
+    "start-detached": "bundle exec jekyll serve --detach",
+    "pa11y-ci:home": "pa11y-ci http://localhost:4000/ca-jekyll-vanilla",
+    "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:4000/ca-jekyll-vanilla/sitemap.xml --sitemap-find https://civicactions.github.io --sitemap-replace http://localhost:4000 --sitemap-exclude \"/*.pdf\"",
+    "cypress-tests": "cypress run --browser chrome --headless"
+  },
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "cypress-axe": "^1.0.0",
+    "pa11y-ci": "^3.0.1"
+  }
+}
