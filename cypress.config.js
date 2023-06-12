@@ -15,6 +15,6 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       return require('./cypress/plugins/index.js')(on, config)
     },
-    baseUrl: 'http://localhost:4000/ca-jekyll-vanilla/',
+    baseUrl: 'http://localhost:4000/best-practices-demo/',
   },
 })

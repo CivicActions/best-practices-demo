@@ -2,7 +2,7 @@
 
 - rel: shortcut icon
   type: image/ico
-  href: /assets/img/logos/civicaction-square.ico
+  href: assets/img/logos/cms-favicon.ico
 #- rel: icon
 #  type: image/png
 #  href: /assets/uswds/img/favicons/favicon.png

@@ -20,7 +20,7 @@ edit_page:
 
 # Configuration for "Last updated" date and time.
 # Uncomment the following line to show.
-last_updated: false
+last_updated: true
 
 # Configuration for which links show at the top of the footer.
 # this is a key into _data/navigation.yml
@@ -71,7 +71,7 @@ contact:
   #   href: https://usa.gov/
   #   external: true
   #   type: rss
-#  heading: Agency contact center
+  heading: Agency contact center
   # Configuration for contact links for email, phone, etc...
   contact_links:
 #     - text: (800) CALL-GOVT
